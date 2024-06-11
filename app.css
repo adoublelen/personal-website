@@ -1,8 +1,43 @@
-header {
-    background-color: #152540;
-    color: white;
-    padding: 1px;
-
-
-
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
+
+body {
+    background: white;
+    color: #fff
+}
+
+header {
+    background-color: #000000;
+    color: #000000;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+.logo {
+    width: 130px;
+    margin-left: 50px;
+}
+
+.navigation {
+    margin-left: auto; 
+    margin-right: 100px; 
+}
+
+.navigation ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 30px;
+}
+
+.navigation ul li a{
+    color: white;   
+    text-decoration: none;
+}
+
